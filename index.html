@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <link rel='stylesheet' href='genericons.css'>
+
+    <link rel="stylesheet" href="style.css">
+
+
+
+    <title>Newsweek</title>
+  </head>
+  <body>
+    <div class='container-fluid no-padding main'>
+      <header>
+        <div class='row d-flex align-items-center header-top'>
+          <div class='d-none d-lg-flex col-xs-col-sm-4 col-lg-3 flex-column justify-content-between header-left'>
+            <a href='#' class='weather font-weight-bold'>
+              <picture style="display:inherit;" class='d-inline'><source srcset="https://g.newsweek.com/img/weather/28.webp" type="image/webp"><img src="https://g.newsweek.com/img/weather/28.png" alt="Mostly Cloudy" class="weather-icon" width="24" height="24"></picture>
+              88° San Diego, CA >
+            </a>
+            <p class='date font-weight-bold no-margin'>Thu, Nov 5, 2020</p>
+          </div>
+          <div class='col-2 col-sm-3 col-lg-6 header-middle'>
+            <svg class='header-logo align-middle' version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60" style="enable-background:new 0 0 395.6 60;" xml:space="preserve">
+              <g>
+                <path class="st0" d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"></path>
+              </g>
+            </svg>
+          </div>
+          <div class='col-8 offset-2 col-sm-6 offset-sm-3 col-md-4 offset-md-5 offset-lg-0 col-lg-3 d-flex justify-content-around align-items-center header-right'>
+            <a class='text-white text-uppercase font-weight-bold' href='#'>Login</a>
+            <button class='btn btn-warning text-uppercase btn-subscribe font-weight-bold'>Subscribe ></button>
+            <span class="genericon genericon-menu col-1 d-lg-none">
+            </span>
+          </div>
+        </div>
+        <div class='header-bottom d-none d-lg-block'>
+          <nav class='navbar no-padding bottom-border'>
+            <ul class='navbar-nav d-flex flex-row justify-content-between align-items-center'>
+              <li class='nav-item'><a class='nav-link' href='#'>U.S.</a></li>
+              <li class='nav-item'><a class='nav-link' href='#'>World</a></li>
+              <li class='nav-item'><a class='nav-link' href='#'>Business</a></li>
+              <li class='nav-item'><a class='nav-link' href='#'>Tech & Science</a></li>
+              <li class='nav-item'><a class='nav-link' href='#'>Culture</a></li>
+              <li class='nav-item'><a class='nav-link' href='#'>Newsweek</a></li>
+              <li class='nav-item'><a class='nav-link' href='#'>Sports</a></li>
+              <li class='nav-item'><a class='nav-link' href='#'>Health</a></li>
+              <li class='nav-item'><a class='nav-link' href='#'>The Debate</a></li>
+              <li class='nav-item'><a class='nav-link' href='#'>Vantage</a></li>
+              <li class='nav-item'><a class='nav-link' href='#'>Weather</a></li>
+              <li class='nav-item d-flex item-last'>
+                <form class='form-inline'>
+                  <input id='search' class='form-control' type='text' placeholder='Search'>
+                  <i class='icon-search'>
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+                    <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+                  </svg>
+                  </i>
+                </form>
+              </li>
+            </ul>
+            <ul class='d-none d-lg-flex navbar-nav flex-row  align-items-center'>
+              <li class='font-weight-bold text-uppercase trending-header'>Trending</li>
+              <li><a class='trending' href='#'>Donald Trump</a></li>
+              <li><a class='trending' href='#'>Joe Biden</a></li>
+              <li><a class='trending' href='#'>2020 Election</a></li>
+              <li><a class='trending' href='#'>Stimulus Package</a></li>
+              <li><a class='trending' href='#'>Coronavirus</a></li>
+              <li><a class='trending' href='#'>Counties That Count</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <div class='row content'>
+        <div class='order-sm-6 col-sm-7 col-md-5'>
+          <h2>Top Story</h2>
+          <article>
+            <div class='wrap'>
+              <img class='img-fluid' src="https://d.newsweek.com/en/full/1665072/joe-biden.jpg?w=591&h=364&f=4f089bce8e86d9be93ae211844c86248">
+              <a class='article-trigger' href='#'></a>
+              <div class='category'>
+                <a class='category-link' href='#'>News</a>
+              </div>
+            </div>
+            <h3><a href='#' class='article-link'>Biden's Team Says Trump's Election Loss 'Inevitable,' Lawsuits Are 'Doomed'</a></h3>
+            <p class='summary'>
+              Joe Biden's campaign team has accused Donald Trump's team of trying to confuse the American public because he can see he's losing.
+            </p>
+          </article>
+
+          <div class='culture-stories'>
+            <h2>My Turn</h2>
+            <div class='row my-turn'>
+              <article class='col-4 no-left-padding'>
+                <img class='img-fluid' src="https://d.newsweek.com/en/full/1664936/mayor-mayoral-election-kentucky-dogs.jpg?w=397&h=397&f=11a0b49f2b01ec9507e9a7b0608aa0e3">
+                <a class='minor-headline' href='#'>'My Dog Won The 2020 Mayoral Election In Rabbit Hash, Kentucky'</a>
+              </article>
+              <article class='col-4 no-padding'>
+                <img class='img-fluid' src="https://d.newsweek.com/en/full/1664927/election-us-election-mexican-immigration-voting-citizen.jpg?w=397&h=397&f=e7fd68c7fe427cdd99bd5dbfd2ea5f1c">
+                <a class='minor-headline' href='#'>'I Was Undocumented. I Just Voted As an American for the First Time'</a>
+              </article>
+              <article class='col-4 no-right-padding'>
+                <img class='img-fluid' src="https://d.newsweek.com/en/full/1664439/anxiety-election-stress-therapy.jpg?w=397&h=397&f=8cfc7d52518fb5610f0082427cf1bdf5">
+                <a class='minor-headline' href='#'>'I'm a Therapist, Here Are 6 Ways You Can Handle Election Anxiety'</a>
+              </article>
+            </div>
+
+            <h2>Culture & Travel</h2>
+            <div class='row culture-travel'>
+              <article class='col-4 no-left-padding'>
+                <div class='img'>
+                  <img class='img-fluid' src="https://d.newsweek.com/en/full/1662335/cul-map-007-banner.jpg?w=397&h=397&l=53&t=31&f=207962579d0717597d79c19dd3a18381">
+                  <a class='tag' href='#'>James Bond</a>
+                </div>
+                <a class='minor-headline' href='#'>A Tribute to Sean Connery the Original 007: The Most Iconic Bond Locations</a>
+              </article>
+              <article class='col-4 no-padding'>
+                <div class='img'>
+                  <img class='img-fluid' src="https://d.newsweek.com/en/full/1657994/cul-map-otherworldly-banner.jpg?w=397&h=397&f=47c67cfe599f41a62cc265fbfd773556">
+                  <a class='tag' href='#'>Travel</a>
+                </div>
+                <a class='minor-headline' href='#'>Otherworldly Natural Phenomena You've Got to See</a>
+              </article>
+              <article class='col-4 no-right-padding'>
+                <div class='img'>
+                  <img class='img-fluid' src="https://d.newsweek.com/en/full/1654391/100-best-snl-episodes.png?w=397&h=397&f=ebdbe4ba1662db4dcf23fb0e81641299">
+                  <a class='tag' href='#'>SNL</a>
+                </div>
+                <a class='minor-headline' href='#'>The 100 Best 'SNL' Episodes of All Time</a>
+              </article>
+            </div>
+            <h2>More Stories</h2>
+            <div class='more-stories'>
+              <article class='story'>
+                <div class='story-img-wrapper float-left'>
+                  <img class='story-img' src="https://d.newsweek.com/en/full/1665956/georgia.jpg?w=95&h=95&f=84e68da367a5db957460cfedf6e2f459">
+                </div>
+                <h4 class='' >
+                  <a class='minor-headline article-link' href='#'>Georgia Recount Could Take Weeks, but Almost Certainly Won't Matter</a>
+                </h4>
+                <p class='summary'>
+                  Joe Biden and Donald Trump are currently tied on 49.4 percent each, with about 4000 votes still to count.
+                </p>
+              </article>
+              <article class='story'>
+                <div class='story-img-wrapper float-left'>
+                  <img class='story-img' src="https://d.newsweek.com/en/full/1665956/georgia.jpg?w=95&h=95&f=84e68da367a5db957460cfedf6e2f459">
+                </div>
+                <h4 class='' >
+                  <a class='minor-headline article-link' href='#'>As Biden Nears Presidency, Israeli Minister Says Iran Policy Could Mean War</a>
+                </h4>
+                <p class='summary'>
+                  Settlements Minister Tzachi Hanegbi appears to have fired the starting gun for anti-Iran nuclear deal pressure from Israel.
+                </p>
+              </article>
+              <article class='story'>
+                <div class='story-img-wrapper float-left'>
+                  <img class='story-img' src="https://d.newsweek.com/en/full/1665851/joe-biden-iran-israel-nuclear-deal-war.jpg?w=95&h=95&f=8daebaf3968b3fe65ccb9399a93a5c3c">
+                </div>
+                <h4 class='' >
+                  <a class='minor-headline article-link' href='#'>Biden Takes Lead in Pennsylvania, Putting Democrat on Cusp of Trump Defeat</a>
+                </h4>
+                <p class='summary'>
+                  Joe Biden has overtaken Donald Trump in the battleground state of Pennsylvania at a critical moment in the 2020 presidential election.
+                </p>
+              </article>
+              <article class='story'>
+                <div class='story-img-wrapper float-left'>
+                  <img class='story-img' src="https://d.newsweek.com/en/full/1666326/vote-stickers.jpg?w=95&h=95&f=5a5680439d6f5d986acc1de3e4fb58d7">
+                </div>
+                <h4 class='' >
+                  <a class='minor-headline article-link' href='#'>Dead Voter Claim Spread Across Social Media Rejected by Election Officials</a>
+                </h4>
+                <p class='summary'>
+                  Facebook and Twitter have warned that accounts spreading the claim that a deseased Michigan resident voted in the 2020 presidential election are circulating false information.
+                </p>
+              </article>
+              <article class='story'>
+                <div class='story-img-wrapper float-left'>
+                  <img class='story-img' src="https://d.newsweek.com/en/full/1665892/stacey-abrams.jpg?w=95&h=95&f=f5bda16f49f0fba60020486a119ad52e">
+                </div>
+                <h4 class='' >
+                  <a class='minor-headline article-link' href='#'>Stacey Abrams Says 'My Heart is Full' As Georgia Poised to Turn Blue</a>
+                </h4>
+                <p class='summary'>
+                  The former gubernatorial candidate called on Georgians to "shout out" the efforts of activists.
+                </p>
+              </article>
+              <article class='story'>
+                <div class='story-img-wrapper float-left'>
+                  <img class='story-img' src="https://d.newsweek.com/en/full/1665679/donald-trump-twitter.jpg?w=95&h=95&f=aaef51ec8aeedccb920e6acfdfa1995b">
+                </div>
+                <h4 class='' >
+                  <a class='minor-headline article-link' href='#'>Trump Family and Allies Taken on by Twitter in Battle on Misinformation</a>
+                </h4>
+                <p class='summary'>
+                  The president's own Twitter account is currently littered with warning flags, including a post from today falsely claiming that he "easily" won the election.
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+        <div class='order-sm-1 col-sm-5 col-md-3'>
+          <h2>Featured Stories</h2>
+          <article>
+            <div class='wrap'>
+              <img class='img-fluid w-100' src="https://d.newsweek.com/en/full/1627967/nicholas-sandmann.jpg?w=397&h=265&q=90&f=d770f1550b4b6f02cd2aa2893b4ee573">
+              <a class='article-trigger' href='#'></a>
+              <div class='category'>
+                <a class='category-link' href='#'>Politics</a>
+              </div>
+            </div>
+            <h3><a href='#' class='article-link'>After Election, Conservatives Brace For 'Cancel Culture' Movement</a></h3>
+            <p class='summary'>
+              Conservatives are predicting that "cancel culture" will be a long-term problem now that Joe Biden has seemingly benefited from practice.
+            </p>
+          </article>
+          <article>
+            <div class='wrap'>
+              <img class='img-fluid w-100' src="https://d.newsweek.com/en/full/1665462/jg.jpg?w=397&h=265&l=50&t=48&q=90&f=7c1ee6c068a3d83a55a1a2b413693855">
+              <a class='article-trigger' href='#'></a>
+              <div class='category'>
+                <a class='category-link' href='#'>News</a>
+              </div>
+            </div>
+            <h3><a href='#' class='article-link'>Nevada Election Official 'Not Aware' of Any Improper Ballots Being Cast</a></h3>
+            <p class='summary'>
+              "We will not allow anyone to stop us from doing what our duty is in county ballots," said Joe Gloria, Clark County Registrar of Voters.
+            </p>
+          </article>
+          <article>
+            <div class='wrap'>
+              <img class='img-fluid w-100' src="https://d.newsweek.com/en/full/1569429/rush-limbaugh.jpg?w=397&h=265&q=90&f=6603397d0899c3ad367c0bcb761d161b">
+              <a class='article-trigger' href='#'></a>
+              <div class='category'>
+                <a class='category-link' href='#'>News</a>
+              </div>
+            </div>
+            <h3><a href='#' class='article-link'>Middle America Gave 'Middle Finger' to Mainstream Media at Polls</a></h3>
+            <p class='summary'>
+              Unbiased news outlets are a thing of the past, and that's a good thing, some conservatives argue. Donald Trump getting nearly half the votes was a "a middle finger" to the mainstream media, said Dinesh D'Souza.
+            </p>
+          </article>
+          <article>
+            <div class='wrap'>
+              <img class='img-fluid w-100' src="https://d.newsweek.com/en/full/1665416/ballot-counting-michigan.jpg?w=397&h=265&q=90&f=1ec4b029c758c0e8f249cfec0eaeb7a9">
+              <a class='article-trigger' href='#'></a>
+              <div class='category'>
+                <a class='category-link' href='#'>News</a>
+              </div>
+            </div>
+            <h3><a href='#' class='article-link'>Michigan Court Dismisses Trump Request to Suspend Ballot Counting</a></h3>
+            <p class='summary'>
+              "What I have at best is a hearsay affidavit," Michigan Court of Claims Judge Cynthia Stephens said during the hearing.
+            </p>
+          </article>
+          <article>
+            <div class='wrap'>
+              <img class='img-fluid w-100' src="https://d.newsweek.com/en/full/1664992/people-line-vote.jpg?w=397&h=265&q=90&f=38fae196f48b13ac679dfe729fa8e25f">
+              <a class='article-trigger' href='#'></a>
+              <div class='category'>
+                <a class='category-link' href='#'>News</a>
+              </div>
+            </div>
+            <h3><a href='#' class='article-link'>U.S. Sees Record Single-Day COVID Case Rise of Over 100,000 </a></h3>
+            <p class='summary'>
+              The average number of daily new cases in the U.S. has been rising on a sharp incline since mid-September.
+            </p>
+          </article>
+        </div>
+        <div class='order-sm-12 col-sm-12 col-md-4'>
+          <h2>The Debate</h2>
+          <div class='debate d-flex flex-wrap'>
+            <div class='debate-section d-flex align-items-center'>
+              <img class='debate-img' src="https://d.newsweek.com/en/full/1658151/will-chamberlain.png?w=150&h=150&f=6795c03d48c42ed8b89072be7d57965c">
+              <a class='debate-img-trigger trigger-left' href='#'></a>
+              <div class='debate-headline'>
+                <h3 class='article-headline'><a class='article-link' href='#'>Reform Section 230 Now</a></h3>
+                <p class=''>By Will Chamberlain</p>
+              </div>
+            </div>
+            <div class="deco">
+              <div class="c-vs">VS</div>
+            </div>
+            <div class='debate-section d-flex align-items-center justify-content-end'>
+              <div class='debate-headline'>
+                <h3 class='article-headline'><a class='article-link' href='#'>Leave Section 230 Alone</a></h3>
+                <p>By Matthew Feeney</p>
+              </div>
+              <img class='debate-img' src="https://d.newsweek.com/en/full/1661065/matthew-feeney.png?w=150&h=150&f=1725268c23205a81bea31dd70e4cd7a0">
+              <a class='debate-img-trigger trigger-right' href='#'></a>
+            </div>
+          </div>
+          <div class='opinion'>
+            <h2>Opinion</h2>
+            <ul class='opinion-list'>
+              <li class='d-flex opinion-item'>
+                <img class='opinion-img' src="https://d.newsweek.com/en/full/1666341/philip-jeffery.png?w=63&h=63&f=e4c1005d67b9f7781272f75a3c1351d7">
+                <a class='debate-img-trigger trigger-left' href='#'></a>
+                <div class='opinion-headline'>
+                  <h3 class='article-headline'><a class='article-link' href='#'>Conservative Populists Should Take the Right Lesson from 2020</a></h3>
+                  <p>By Philip Jeffery</p>
+                </div>
+              </li>
+              <li class='d-flex opinion-item'>
+                <img class='opinion-img' src="https://d.newsweek.com/en/full/1665472/dr-henry-kressel-david-p-goldman.png?w=63&h=63&f=4437c8fbe13a8c58fb0020c9a68bda5c">
+                <a class='debate-img-trigger trigger-left' href='#'></a>
+                <div class='opinion-headline'>
+                  <h3 class='article-headline'><a class='article-link' href='#'>What Will it Take to Rebuild America's Tech Manufacturing?</a></h3>
+                  <p>By Dr. Henry Kressel and David P. Goldman</p>
+                </div>
+              </li>
+              <li class='d-flex opinion-item'>
+                <img class='opinion-img' src="https://d.newsweek.com/en/full/1664594/benjamin-weil.png?w=63&h=63&f=5ab4afd5eae6a7b57099e3194d0099b4">
+                <a class='debate-img-trigger trigger-left' href='#'></a>
+                <div class='opinion-headline'>
+                  <h3 class='article-headline'><a class='article-link' href='#'>How the U.S. Can Prevent Iran from Stationing ICBMs in Venezuela</a></h3>
+                  <p>By Benjamin Weil</p>
+                </div>
+              </li>
+              <li class='d-flex opinion-item'>
+                <img class='opinion-img' src="https://d.newsweek.com/en/full/1665922/christos-makridis-kenny-cunningham.png?w=63&h=63&f=d979fedb45e05b91f0e95104cd83df5c">
+                <a class='debate-img-trigger trigger-left' href='#'></a>
+                <div class='opinion-headline'>
+                  <h3 class='article-headline'><a class='article-link' href='#'>The End of Mainstream Media and the Dawn of the New Frontier</a></h3>
+                  <p>By Christos A. Makridis and Kenny Cunningham</p>
+                </div>
+              </li>
+              <li class='d-flex opinion-item'>
+                <img class='opinion-img' src="https://d.newsweek.com/en/full/1665435/michaels.png?w=63&h=63&f=45e98a2cc4f1d3407094d4ae37c8eb6f">
+                <a class='debate-img-trigger trigger-left' href='#'></a>
+                <div class='opinion-headline'>
+                  <h3 class='article-headline'><a class='article-link' href='#'>Anti-Racism Mustn't be Exploited to Foment Anti-Semitism</a></h3>
+                  <p>By David J. Michaels</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <footer class='d-flex flex-column'>
+        <div class='footer-top d-flex flex-column flex-sm-row justify-content-between'>
+          <div class='footer-left d-flex flex-column flex-sm-row'>
+            <svg class='footer-logo align-middle' version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60" style="enable-background:new 0 0 395.6 60;" xml:space="preserve">
+              <g>
+                <path class="st0" d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"></path>
+              </g>
+            </svg>
+            <p class='copyright align-self-sm-end'>
+              © 2020 NEWSWEEK DIGITAL LLC
+            </p>
+          </div>
+          <ul class='social no-padding no-margin d-flex align-items-center'>
+            <li>
+              <a class='genericon genericon-facebook' href='#'></a>
+            </li>
+            <li>
+              <a class='genericon genericon-twitter' href='#'></a>
+            </li>
+            <li>
+              <a class='genericon genericon-instagram' href='#'></a>
+            </li>
+            <li>
+              <a class='genericon genericon-tumblr' href='#'></a>
+            </li>
+            <li>
+              <a class='genericon genericon-linkedin' href='#'></a>
+            </li>
+          </ul>
+        </div>
+        <ul class='editions d-flex no-padding no-margin'>
+          <li class='editions-title'>
+            Editions:
+          </li>
+          <li class='edition'>
+            <a href='#'>U.S. Edition</a>
+          </li>
+          <li class='edition'>
+            <a href='#'>日本</a>
+          </li>
+          <li class='edition'>
+            <a href='#'>Pakistan</a>
+          </li>
+          <li class='edition'>
+            <a href='#'>Polska</a>
+          </li>
+          <li class='edition edition-last'>
+            <a href='#'>România</a>
+          </li>
+        </ul>
+        <ul class='nav d-flex flex-wrap no-padding no-margin justify-content-start'>
+          <li class='nav-item nav-first'>
+            <a href='#'>About Us</a>
+          </li>
+          <li class='nav-item'>
+            <a href='#'>Corrections</a>
+          </li>
+          <li class='nav-item'>
+            <a href='#'>Contact Us</a>
+          </li>
+          <li class='nav-item'>
+            <a href='#'>Editorial Guidelines</a>
+          </li>
+          <li class='nav-item'>
+            <a href='#'>Advertise</a>
+          </li>
+          <li class='nav-item'>
+            <a href='#'>Copyright</a>
+          </li>
+          <li class='nav-item'>
+            <a href='#'>Terms & Conditions</a>
+          </li>
+          <li class='nav-item'>
+            <a href='#'>Privacy Policy</a>
+          </li>
+          <li class='nav-item'>
+            <a href='#'>Cookie Policy</a>
+          </li>
+          <li class='nav-item'>
+            <a href='#'>Terms of Sale</a>
+          </li>
+          <li class='nav-item'>
+            <a href='#'>Archive</a>
+          </li>
+          <li class='nav-item'>
+            <a href='#'>Announcements</a>
+          </li>
+          <li class='nav-item'>
+            <a href='#'>Do Not Sell My Personal Information</a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+    
+
+
+    <!-- Optional JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  </body>
+</html>
